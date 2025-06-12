@@ -1,0 +1,20 @@
+<!DOCTYPE html><!--HyperText Markup Language-->
+<html lang="en"><!--define a linguagem-->
+<head><!--estrutura de programação-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--informa ao navegador como exibir uma página da web em diferentes dispositivos-->
+    <link rel="stylesheet" href="./style.css"><!-- na linha 06 é onde eu linko com o css-->
+    <script src="./script.js" defer></script><!-- na linha 07 é onde eu linko com o java script-->
+
+    <title>Mario Jump</title><!-- titulo da programação (aparece )-->
+</head>
+<body>
+    
+  <div class="game-board"><!--a div serve para linkar a programação, "ela chama"-->
+
+    <img src="./imagens/pipe.png" class="pipe">
+    <img src="/imagens/mario.gif" class="mario">
+    <img src="/imagens/clouds.png"class="clouds">
+  </div>
+</body>
+</html>
